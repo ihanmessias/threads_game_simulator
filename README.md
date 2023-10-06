@@ -4,7 +4,7 @@ Este é um exemplo prático de um simulador de jogo multiplayer em Python que ut
 ## Como Funciona
 O script utiliza a biblioteca `threading` para criar várias threads, uma para cada jogador, representando as ações que eles tomam no jogo.
 
-*Dados dos Jogadores*: Os dados iniciais dos jogadores são definidos em um dicionário chamado `dados_personagens`, que inclui informações como `vida  e `poder de ataque`.
+*Dados dos Jogadores*: Os dados iniciais dos jogadores são definidos em um dicionário chamado `dados_personagens`, que inclui informações como `vida`  e `poder de ataque`.
 
 *Função `processar_comandos`*: Esta função simula o processamento de comandos pelo servidor para cada jogador. Ela escolhe aleatoriamente entre dois comandos: **"atacar"** ou **"se_curar"**. Os comandos são processados de forma assíncrona em threads separadas para cada jogador. Os jogadores podem atacar outros jogadores ou se curar.
 
